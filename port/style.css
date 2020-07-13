@@ -1,9 +1,3 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
-</style>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
-</style>
 *{
   margin: 0;
   padding: 0;
@@ -36,7 +30,7 @@ a{
 p{
   font-size: 1.8rem;
   font-weight: 300;
-  font-family: 'MuseoModerno', sans-serif;
+  font-family: 'MuseoModerno', cursive;
 }
 img{
   width: 100%;
@@ -122,8 +116,8 @@ header{
     margin: 0 2rem;
  }
   .nav-link{
-    font-family: 'The Historia Demo', sans-serif;
-    font-size:5rem;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size:4rem;
     padding: 1rem;
   }
 
@@ -189,7 +183,7 @@ header{
 }
 .landing-text h1{
     font-size: 10rem;
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'Grenze Gotisch', cursive;
     background: linear-gradient(to top,#ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -464,10 +458,10 @@ color: #e12e72;
   body{
     background: url("images/sitebg2.jpg") no-repeat center fixed;
     background-size: cover;
+    justify-content: center;
 }
   .landing-text h1{
     font-size: 15rem;
-    font-family: 'The Historia Demo', sans-serif;
   }
   .landing-text h6{
     font-size: 1.7rem;
@@ -507,7 +501,6 @@ color: #e12e72;
   }
   .landing-text h1{
     font-size: 8rem;
-    font-family: 'The Historia Demo', sans-serif;
   }
   .landing-text h6{
     font-size: 1.4rem;
@@ -528,6 +521,7 @@ color: #e12e72;
   .portfolio-img{
     margin: 0 0 2rem 0;
     order: 1;
+    width: auto;
   }
   .portfolio-description{
     margin: 0;
