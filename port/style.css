@@ -30,7 +30,7 @@ a{
 p{
   font-size: 1.8rem;
   font-weight: 300;
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Fondamento', cursive;
   color: #000;
 }
 h1,h2,h6{
@@ -220,7 +220,7 @@ header{
   font-size: 2rem;
   font-weight: 300;
   opacity: .3;
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Fondamento', cursive;
 }
 
 .profile-img{
@@ -266,7 +266,7 @@ color: #e12e72;
 
 }
 .services h6{
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Fondamento', cursive;
 }
 .skill h1{
   text-transform: uppercase;
@@ -324,7 +324,7 @@ color: #e12e72;
   text-align: center;
 }
 .section-heading h6{
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Fondamento', cursive;
 }
 .ind-skill{
   display: flex;
@@ -395,15 +395,18 @@ color: #e12e72;
 
 }*/
 
-
-.copyright{
+}
+.footer{
   width: 100%;
-  text-align: center;
-  background-color: #95006a;
   padding: 2rem 0;
   position: relative;
 }
-
+.copyright > p{
+  text-align: center;
+  opacity: 0.5;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
 
 /*.up{
   position: absolute;
