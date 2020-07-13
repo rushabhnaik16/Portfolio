@@ -406,6 +406,7 @@ color: #e12e72;
   opacity: 0.5;
   font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
 /*.up{
@@ -427,9 +428,6 @@ color: #e12e72;
   margin: auto;
 }*/
 
-.copyright p{
-  font-size: 1.4rem;
-}
 
 
 .contact i{
@@ -501,6 +499,9 @@ color: #e12e72;
  .icon-container i{
    font-size: 4rem;
  }
+ .copyright > p{
+   color: white;
+ }
 
 @media screen and (max-width: 600px){
 
@@ -536,6 +537,9 @@ color: #e12e72;
     margin: 0;
     order: 2;
     text-align: center;
+  }
+  .copyright > p{
+    color: white;
   }
 
 }
