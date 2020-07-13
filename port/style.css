@@ -12,7 +12,7 @@ html{
 body{
   width: 100%;
   height: 100%;
-  background: url("images/sitebg.jpg") no-repeat center fixed;
+  background: url("images/bg2.png") no-repeat center fixed;
   background-size: cover;
   overflow-x: hidden;
 }
@@ -31,6 +31,10 @@ p{
   font-size: 1.8rem;
   font-weight: 300;
   font-family: 'MuseoModerno', cursive;
+  color: #000;
+}
+h1,h2,h6{
+  color: #000;
 }
 img{
   width: 100%;
@@ -48,7 +52,8 @@ img{
 }
 .section-heading h1{
   font-size: 3.5rem;
-  color: rgba(255,255,255, .3);
+  color: #000;
+  opacity: .3;
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -62,7 +67,7 @@ img{
   bottom: -.5rem;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255,255,255,0.75);
+  background-color: #000;
 }
 .section-heading h1::before{
   width:10rem;
@@ -96,7 +101,7 @@ header{
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #16162d;
+  background-color: #95006a;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1,0,0,1);
@@ -110,7 +115,6 @@ header{
   display: flex;
   justify-content:center;
   align-items:center;
-
 }
  li{
     margin: 0 2rem;
@@ -123,7 +127,7 @@ header{
 
 .nav-link:hover,
 .nav-link:focus{
-  background: linear-gradient(to top,#ffe838, #fd57bf);
+  background: linear-gradient(to top,#b30000, #ffff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -148,7 +152,7 @@ header{
   transform: rotate(-45deg);
 }
 .bar{
-  background: linear-gradient(to right, #ffe838, #fd57bf);
+  background: linear-gradient(to right, #b30000, #ffff00);
   width:100px;
   height:4px;
   border-radius: .8rem;
@@ -180,11 +184,12 @@ header{
   top: 50%;
   text-align: center;
   z-index: 1;
+  margin-bottom: 50px;
 }
 .landing-text h1{
     font-size: 10rem;
     font-family: 'Grenze Gotisch', cursive;
-    background: linear-gradient(to top,#ffe838, #fd57bf);
+    background: linear-gradient(to top,#f32343,#FFD700);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -194,6 +199,7 @@ header{
 .landing-text h6{
   font-size: 2rem;
   font-weight: 300;
+  user-select: none;
 }
 .about .container{
   display: flex;
@@ -338,6 +344,9 @@ color: #e12e72;
   letter-spacing: 1.5px;
   font-size: 15px;
 }
+.extra-info{
+  text-align: center;
+}
 
 .icon-container{
   width: 10rem;
@@ -386,19 +395,16 @@ color: #e12e72;
 
 }*/
 
-.contact{
-  background-color: #221e3f;
-
-}
-
 
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #16162d;
+  background-color: #95006a;
   padding: 2rem 0;
   position: relative;
 }
+
+
 /*.up{
   position: absolute;
   width: 5rem;
@@ -456,7 +462,7 @@ color: #e12e72;
 
 @media screen and (max-width:768px) {
   body{
-    background: url("images/sitebg2.jpg") no-repeat center fixed;
+    background: url("images/bg2.png") no-repeat center fixed;
     background-size: cover;
     justify-content: center;
 }
@@ -526,6 +532,7 @@ color: #e12e72;
   .portfolio-description{
     margin: 0;
     order: 2;
+    text-align: center;
   }
 
 }
