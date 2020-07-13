@@ -396,10 +396,13 @@ color: #e12e72;
 }*/
 
 }
-.footer{
+/*.footer{
   width: 100%;
   padding: 2rem 0;
   position: relative;
+}*/
+.copyright{
+  text-align: center;
 }
 .copyright > p{
   text-align: center;
