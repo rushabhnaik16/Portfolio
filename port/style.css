@@ -120,7 +120,7 @@ header{
     margin: 0 2rem;
  }
   .nav-link{
-    font-family: 'Grenze Gotisch', cursive;
+    font-family:'Kaushan Script', cursive;
     font-size:4rem;
     padding: 1rem;
   }
@@ -188,7 +188,7 @@ header{
 }
 .landing-text h1{
     font-size: 10rem;
-    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Kaushan Script', cursive;
     background: linear-gradient(to top,#f32343,#FFD700);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -319,7 +319,7 @@ color: #e12e72;
 .sec-skills{
   margin-top: 5rem;
   display: column;
-  grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+
   grid-gap:2.5rem;
   text-align: center;
 }
@@ -348,7 +348,18 @@ color: #e12e72;
   text-align: center;
 }
 
-.icon-container{
+
+.poster-container {
+  display: flex;
+}
+
+
+.poster {
+  flex: 33.33%;
+ padding: 5px;
+}
+
+ .icon-container{
   width: 10rem;
   height: 10rem;
   border: 3px solid #ffe838;
@@ -365,7 +376,7 @@ color: #e12e72;
 }
 .sec-built{
   margin-top: 5rem;
-  display: column;
+  display:grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
   grid-gap:2.5rem;
   text-align: center;
@@ -385,9 +396,7 @@ color: #e12e72;
   border: 3px solid #ffe838;
   background-color: #0054d4;
   margin-bottom: 2rem;
-  display: flex;
-
-}
+  }
 /*.icon-container i{
   color:yellow;
   font-size: 5rem;
@@ -505,6 +514,10 @@ color: #e12e72;
  .copyright > p{
    color: white;
  }
+ .poster {
+   width: 100%;
+ }
+}
 
 @media screen and (max-width: 600px){
 
@@ -544,5 +557,10 @@ color: #e12e72;
   .copyright > p{
     color: white;
   }
-
+  .poster-container{
+    flex-direction: column;
+  }
+  .poster {
+   width: auto;
+ }
 }
