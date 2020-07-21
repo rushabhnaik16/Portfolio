@@ -474,6 +474,7 @@ color: #e12e72;
 
 
 @media screen and (max-width:768px) {
+
   body{
     background: url("images/bg2.png") no-repeat center fixed;
     background-size: cover;
